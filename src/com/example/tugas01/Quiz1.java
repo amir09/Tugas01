@@ -37,7 +37,7 @@ public class Quiz1 extends Activity {
 			} else if (b>a){
 				thasil.setText("Nilai B = " +b+ " Lebih Besar dari nilai A = " +a);
 			} else {
-				thasil.setText("Nilai A dan B sama");
+				thasil.setText("Nilai A = " +a+ " dan Nilai B =" +b+ " adalah sama");
 			}
 			}
 		});
